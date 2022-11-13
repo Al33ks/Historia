@@ -13,6 +13,7 @@ body{
     padding-bottom: 2rem;
     box-sizing: border-box;
     color: #fff;
+    word-spacing: 10px;
 }
 #daro{
     display: flex;
