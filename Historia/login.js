@@ -22,9 +22,5 @@ form.addEventListener('submit', (e) => {
   if(login.value.length <= 6) {
     messages.push('Login must be longer than 6 characters')
   }
-
-  if (messages.length > 0) {
-    e.preventDefault()
-    errorElement.innerText = messages.join(', ')
-  }
 })
+//czemu to nie działą?
